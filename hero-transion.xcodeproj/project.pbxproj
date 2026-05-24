@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3588A4F02FC2B6A000AC468B /* SwiftFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 3588A4EF2FC2B6A000AC468B /* SwiftFormat */; };
+		3588A4D72FC2BD4F00AC468B /* SwiftFormat in Frameworks */ = {isa = PBXBuildFile; productRef = 3588A4D62FC2BD4F00AC468B /* SwiftFormat */; };
+		3588BF012FC3A10000AC468B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588BF112FC3A10000AC468B /* ContentView.swift */; };
+		3588BF022FC3A10000AC468B /* hero_transionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588BF122FC3A10000AC468B /* hero_transionApp.swift */; };
+		3588BF032FC3A10000AC468B /* WindowSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588BF132FC3A10000AC468B /* WindowSnapshot.swift */; };
+		3588BF042FC3A10000AC468B /* SnapshotPreviewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588BF142FC3A10000AC468B /* SnapshotPreviewBackground.swift */; };
+		3588BF052FC3A10000AC468B /* FullscreenCoverFailureExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588BF152FC3A10000AC468B /* FullscreenCoverFailureExampleView.swift */; };
+		3588BF062FC3A10000AC468B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3588BF162FC3A10000AC468B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3588A4A22FC2B4C900AC468B /* hero-transion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hero-transion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3588BF112FC3A10000AC468B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3588BF122FC3A10000AC468B /* hero_transionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hero_transionApp.swift; sourceTree = "<group>"; };
+		3588BF132FC3A10000AC468B /* WindowSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSnapshot.swift; sourceTree = "<group>"; };
+		3588BF142FC3A10000AC468B /* SnapshotPreviewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotPreviewBackground.swift; sourceTree = "<group>"; };
+		3588BF152FC3A10000AC468B /* FullscreenCoverFailureExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenCoverFailureExampleView.swift; sourceTree = "<group>"; };
+		3588BF162FC3A10000AC468B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3588A4A42FC2B4C900AC468B /* hero-transion */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "hero-transion";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3588A49F2FC2B4C900AC468B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3588A4F02FC2B6A000AC468B /* SwiftFormat in Frameworks */,
+				3588A4D72FC2BD4F00AC468B /* SwiftFormat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +41,7 @@
 		3588A4992FC2B4C900AC468B = {
 			isa = PBXGroup;
 			children = (
-				3588A4A42FC2B4C900AC468B /* hero-transion */,
+				3588BF082FC3A10000AC468B /* hero-transion */,
 				3588A4A32FC2B4C900AC468B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +52,27 @@
 				3588A4A22FC2B4C900AC468B /* hero-transion.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3588BF072FC3A10000AC468B /* FullscreenCoverFailureExample */ = {
+			isa = PBXGroup;
+			children = (
+				3588BF152FC3A10000AC468B /* FullscreenCoverFailureExampleView.swift */,
+			);
+			path = FullscreenCoverFailureExample;
+			sourceTree = "<group>";
+		};
+		3588BF082FC3A10000AC468B /* hero-transion */ = {
+			isa = PBXGroup;
+			children = (
+				3588BF122FC3A10000AC468B /* hero_transionApp.swift */,
+				3588BF112FC3A10000AC468B /* ContentView.swift */,
+				3588BF132FC3A10000AC468B /* WindowSnapshot.swift */,
+				3588BF142FC3A10000AC468B /* SnapshotPreviewBackground.swift */,
+				3588BF072FC3A10000AC468B /* FullscreenCoverFailureExample */,
+				3588BF162FC3A10000AC468B /* Assets.xcassets */,
+			);
+			path = "hero-transion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,12 +90,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3588A4A42FC2B4C900AC468B /* hero-transion */,
-			);
 			name = "hero-transion";
 			packageProductDependencies = (
-				3588A4EF2FC2B6A000AC468B /* SwiftFormat */,
+				3588A4D62FC2BD4F00AC468B /* SwiftFormat */,
 			);
 			productName = "hero-transion";
 			productReference = 3588A4A22FC2B4C900AC468B /* hero-transion.app */;
@@ -101,7 +123,7 @@
 			mainGroup = 3588A4992FC2B4C900AC468B;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				3588A4EE2FC2B6A000AC468B /* XCRemoteSwiftPackageReference "SwiftFormat" */,
+				3588A4D52FC2BD4F00AC468B /* XCRemoteSwiftPackageReference "SwiftFormat" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3588A4A32FC2B4C900AC468B /* Products */;
@@ -118,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3588BF062FC3A10000AC468B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3588BF012FC3A10000AC468B /* ContentView.swift in Sources */,
+				3588BF022FC3A10000AC468B /* hero_transionApp.swift in Sources */,
+				3588BF032FC3A10000AC468B /* WindowSnapshot.swift in Sources */,
+				3588BF042FC3A10000AC468B /* SnapshotPreviewBackground.swift in Sources */,
+				3588BF052FC3A10000AC468B /* FullscreenCoverFailureExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +371,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3588A4EE2FC2B6A000AC468B /* XCRemoteSwiftPackageReference "SwiftFormat" */ = {
+		3588A4D52FC2BD4F00AC468B /* XCRemoteSwiftPackageReference "SwiftFormat" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nicklockwood/SwiftFormat";
 			requirement = {
@@ -354,9 +382,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3588A4EF2FC2B6A000AC468B /* SwiftFormat */ = {
+		3588A4D62FC2BD4F00AC468B /* SwiftFormat */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3588A4EE2FC2B6A000AC468B /* XCRemoteSwiftPackageReference "SwiftFormat" */;
+			package = 3588A4D52FC2BD4F00AC468B /* XCRemoteSwiftPackageReference "SwiftFormat" */;
 			productName = SwiftFormat;
 		};
 /* End XCSwiftPackageProductDependency section */
