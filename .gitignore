@@ -1,0 +1,67 @@
+### このリポジトリ固有 ###
+.cursor/
+.swiftformat
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Xcode（ユーザー固有・ビルド成果物のみ。project / workspace は追跡） ###
+build/
+DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.lcov
+timeline.xctimeline
+playground.xcworkspace
+
+### Swift Package Manager ###
+.build/
+.swiftpm/configuration/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+Packages/
+Package.pins
+
+### SPM の Package.resolved（コミットするチームではこのブロックを外す） ###
+# Package.resolved
+
+### CocoaPods ###
+Pods/
+
+### Carthage ###
+Carthage/Build/
+Carthage/Checkouts/
+
+### Accio / Rome ###
+Dependencies/
+.accio/
+
+### fastlane ###
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+### ツール・その他 ###
+*.log
+*.tmp
+*.swp
+*~
+.netrc
+.env
+.env.*
+!.env.example
+
+### テスト・カバレッジ ###
+*.gcno
+*.gcda
+*.profdata
